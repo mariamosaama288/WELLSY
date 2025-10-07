@@ -1,0 +1,120 @@
+
+.body {
+  background: #f6faf8;
+  font-family: Georgia, serif;
+}
+.navbar {
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(235, 235, 184);
+  color: #fff;
+  padding: 0.5rem 2rem;
+}
+
+.navbarlogo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#logo {
+  pointer-events: none;
+  margin-top: 3rem;
+  text-decoration: none;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #0f5132;
+  font-family: "Playfair Display", serif;
+}
+
+.navbarlinks {
+  list-style: none;
+  display: flex;
+  gap: 1.6rem;
+  margin: 10;
+  padding: 10;
+}
+
+.navbarlinks li a {
+  color: #0f5132;
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: color 0.2s;
+}
+
+.navbarlinks li a:hover {
+  color: #4b7764;
+}
+
+.moodcontainer {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #0f5132;
+}
+
+.subtitle {
+  color: #4b7764;
+  font-size: 1.2rem;
+}
+
+.moodcard {
+  background: #b8f3c9; /* mint green */
+  border-radius: 15px;
+  padding: 20px;
+  margin: 25px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border: 2px solid #a3e1b7;
+}
+
+h2 {
+  margin-top: 0;
+  color: #0f5132;
+}
+
+.questiongroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button button{
+  background-color: #198754;
+  color: white;
+  padding: 14px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.button button:hover {
+  background-color: #157347;
+}
+
+.result {
+  background: #e6fff0;
+  border-left: 5px solid #198754;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #4b7764;
+}

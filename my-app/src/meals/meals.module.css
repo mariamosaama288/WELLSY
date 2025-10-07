@@ -1,0 +1,55 @@
+.s{width:250px; height:160px;object-fit:cover;margin:10px;border-radius:8px;cursor:pointer;transition: transform 0.3s ease, box-shadow 0.3s ease}
+.s:hover{transform: scale(1.1);box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3)}
+.b{display:block;margin-bottom:20px;padding:8px 16px;border:none;border-radius:6px;}
+.all img{width:400px;height:auto;object-fit:cover;border-radius:12px}
+.all{display:flex;align-items:flex-start;gap:20px}
+.num{font-size: 18px;font-weight: bold}
+.help{ display:flex;align-items:center;gap:10px}
+.hi{display:flex;flex-wrap: wrap;gap:20px}
+.name{text-align: center;margin-top: 6px;font-size: 16px;}
+.title{ color:#020e0b }
+.head{ color: rgb(1, 14, 12);font-size:28px;font-weight: bold;text-align:center;margin: 20px 0;padding-bottom: 10px; border-bottom: 3px solid #4f684f;}
+.body1{background-color:rgb(222, 240, 222);font-family: 'Poppins', sans-serif;font-style: italic;}
+.t{color: #000;}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(235, 235, 184);
+  color: #fff;
+  padding: 0.5rem 2rem;
+}
+
+.navbarlogo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#logo {
+  pointer-events: none;
+  margin-top: 3rem;
+  text-decoration: none;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #0f5132;
+  font-family: "Playfair Display", serif;
+}
+
+.navbarlinks {
+  list-style: none;
+  display: flex;
+  gap: 1.6rem;
+  margin: 10;
+  padding: 10;
+}
+
+.navbarlinks li a {
+  color: #0f5132;
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: color 0.2s;
+}
+
+.navbarlinks li a:hover {
+  color: #4b7764;
+}
