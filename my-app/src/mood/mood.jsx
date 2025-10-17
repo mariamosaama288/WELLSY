@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Chatbot from '../chat/chatbot.jsx'
 import { Link } from 'react-router-dom'
 import style from './MoodPage.module.css'
 export default function MoodPage() {
@@ -163,6 +164,7 @@ export default function MoodPage() {
         <p>Wellsy • Progress over Perfection</p>
       </footer>
     </div>
+      <Chatbot/>
     </div>
   );
 }
