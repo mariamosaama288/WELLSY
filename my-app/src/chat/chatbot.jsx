@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { MessageSquare, X, Send, StopCircle, Bot } from "lucide-react";
 import "./chatbot.css";
-import { Link } from "react-router-dom";
 // Access environment variable using Vite's import.meta.env
 const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
@@ -127,28 +126,6 @@ const Chatbot = () => {
 
   return (
     <>
-      <nav className='navbar'>
-        <div className='navbarlogo'>
-          <Link to="/" id='logo'>
-            WELLSY
-          </Link>
-        </div>
-        <ul className='navbarlinks'>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/mood">Mood</Link>
-          </li>
-          <li>
-            <Link to="/meals">Meals</Link>
-          </li>
-          <li>
-            <Link to="/chatbot">Chat bot</Link>
-          </li>
-          
-        </ul>
-      </nav>
       <div className="chatbot-container">
         {/* Chatbot Toggle Button - USES motion.button */}
         {!isOpen && (
