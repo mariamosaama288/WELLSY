@@ -7,11 +7,20 @@
 .help{ display:flex;align-items:center;gap:10px}
 .hi{display:flex;flex-wrap: wrap;gap:20px}
 .name{text-align: center;margin-top: 6px;font-size: 16px;}
-.title{ color:#020e0b }
-.head{ color: rgb(1, 14, 12);font-size:28px;font-weight: bold;text-align:center;margin: 20px 0;padding-bottom: 10px; border-bottom: 3px solid #4f684f;}
-.body1{background-color:rgb(222, 240, 222);font-family: 'Poppins', sans-serif;font-style: italic;}
-.t{color: #000;}
+.title{ color:#edf5f3 }
+.head{ color: rgb(237, 242, 242);font-size:28px;font-weight: bold;text-align:center;margin: 20px 0;padding-bottom: 10px; border-bottom: 3px solid #f3f9f3;}
+.body1{background-color:#1B5E4A
+;font-family: Georgia, serif;}
+
+p{
+  color: #f6f9f9;
+}
+.t p{color: #000 ;margin-top: 10px;font-size: 20px;}
+.t h2{color: #000;margin-top: 10px;}
+.t h1{color:#000}
+
 .navbar {
+  font-style: italic;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -53,3 +62,4 @@
 .navbarlinks li a:hover {
   color: #4b7764;
 }
+h2{color:#fff}
