@@ -1,4 +1,5 @@
 import style from "./meals.module.css";
+import Chatbot from '../chat/chatbot.jsx'
 import {useState} from "react";
 import { Link } from "react-router-dom";
  function Meals() {
@@ -639,11 +640,7 @@ if (x==="dinner8"){return(
                 </li>
                 <li>
                   <Link to="/meals">Meals</Link>       
-                </li>
-                <li>
-            <Link to='/chatbot'>Chat bot</Link>
-        </li>
-               
+                </li>  
               </ul>
             </nav>
       <h1> WELLSY MEALS</h1>
@@ -839,6 +836,7 @@ if (x==="dinner8"){return(
 <p className={style.name}>Yogurt Bowl</p>
   </div>
 </div>
+     <Chatbot/>
 </div>
 
   );
