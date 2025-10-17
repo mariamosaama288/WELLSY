@@ -1,4 +1,5 @@
 import style from "./home.module.css";
+import Chatbot from '../chat/chatbot.jsx'
 import { Link } from 'react-router-dom'
 export default function HomePage() {
   
@@ -37,9 +38,6 @@ export default function HomePage() {
         <li>
           <Link to="/meals">Meals</Link>       
         </li>
-            <li>
-          <Link to="/chatbot">Chat bot</Link>       
-        </li>
         
       </ul>
     </nav>
@@ -60,6 +58,7 @@ export default function HomePage() {
           ))}
         </div>
       </div>
+      <Chatbot/>
     </div>
   );
 }
