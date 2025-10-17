@@ -1,7 +1,13 @@
+
 .page {
   font-family: Georgia, serif;
 }
-
+*{
+  padding:0;
+  margin:0;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
 .container {
   background: linear-gradient(135deg, #e0f2f1, #b2dfdb);
   min-height: 100vh;
